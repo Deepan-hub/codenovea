@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeNovea — Deepan | Frontend Developer &amp; React Specialist</title>
+  <meta name="description" content="React &amp; JavaScript Specialist · Frontend Developer based in Chennai, India">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Ctext x='16' y='22' font-size='18' font-weight='800' font-family='Inter,sans-serif' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="scrollProgress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo"><span class="logo-code">Code</span><span class="logo-novea">Novea</span></a>
+      <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">My Projects</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="#start-project" class="btn btn-fiverr header-cta-btn">Start a Project</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- FIX 1: Hero section - correct text + Fiverr button -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Available for new projects
+      </div>
+      <h1>Hi, I'm Deepan — I Build <span class="hero-highlight">Fast, Beautiful</span> Websites</h1>
+      <p>React · JavaScript · HTML &amp; CSS — Based in India, serving clients worldwide</p>
+      <div class="hero-btns">
+        <a href="#start-project" class="btn btn-fiverr">Start a Project</a>
+        <a href="#portfolio" class="btn btn-outline">View My Work</a>
+      </div>
+      <div class="hero-trust-row">
+        <span>Trusted on Fiverr &amp; Malt</span>
+        <span class="hero-trust-dot">·</span>
+        <span>3+ Years Experience</span>
+        <span class="hero-trust-dot">·</span>
+        <span>25+ Projects Delivered</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIX 2: Services section - correct services only -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>My Services</h2>
+        <p>What I can build for you</p>
+      </div>
+      <div class="services-grid reveal-stagger">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Custom websites built with clean, modern code that loads fast and looks great on all devices.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-file-code"></i></div>
+          <h3>Landing Pages</h3>
+          <p>High-converting landing pages designed to turn visitors into customers for your business.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fab fa-react"></i></div>
+          <h3>React Web Apps</h3>
+          <p>Dynamic, interactive web applications built with React and modern JavaScript.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-user-circle"></i></div>
+          <h3>Portfolio Websites</h3>
+          <p>Professional portfolio sites that showcase your work and help you get hired or attract clients.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Figma to Code</h3>
+          <p>Convert your Figma designs into pixel-perfect, responsive HTML/CSS/React code.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-headset"></i></div>
+          <h3>Support &amp; Maintenance</h3>
+          <p>Ongoing technical support and updates to keep your website running smoothly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW: Skills section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>My Skills</h2>
+        <p>Technologies I work with every day</p>
+      </div>
+      <div class="skills-grid reveal-stagger">
+        <div class="skill-badge"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="skill-badge"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="skill-badge"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill-badge"><i class="fab fa-react"></i> React</div>
+        <div class="skill-badge"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="skill-badge"><i class="fas fa-mobile-alt"></i> Responsive Design</div>
+        <div class="skill-badge"><i class="fab fa-figma"></i> Figma</div>
+        <div class="skill-badge"><i class="fas fa-code"></i> REST APIs</div>
+        <div class="skill-badge"><i class="fab fa-js"></i> Next.js</div>
+        <div class="skill-badge"><i class="fab fa-css3-alt"></i> Tailwind CSS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio section (unchanged) -->
+  <section class="section section-dark" id="portfolio">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>My Projects</h2>
+        <p>Real products and websites I've built for clients and personal projects.</p>
+      </div>
+      <div class="project-cards-grid reveal-stagger" id="portfolioGrid">
+
+        <!-- Project 1 -->
+        <div class="project-card" data-key="thumbforge">
+          <div class="project-card-img">
+            <img src="1_Home_page.png" alt="ThumbForgeAI" loading="lazy" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a1a2e,#16213e)'; this.style.display='none'"/>
+            <div class="project-card-img-placeholder"></div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">AI Thumbnail Generator Web App using React</h3>
+            <p class="project-card-desc">Built a web application that generates AI-powered thumbnails. Features a clean modern UI with responsive design. Built using React and JavaScript with API integration.</p>
+            <div class="project-card-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">API</span>
+              <span class="project-tag">CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-key="royalfoods">
+          <div class="project-card-img">
+            <img src="1.png" alt="Royal Foods Restaurant" loading="lazy" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a1a2e,#16213e)'; this.style.display='none'"/>
+            <div class="project-card-img-placeholder"></div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Royal Foods – Luxury Restaurant Website</h3>
+            <p class="project-card-desc">Built a premium restaurant website featuring interactive menu with category filters, table reservation system, chef profiles, customer testimonials, photo gallery and Google Maps integration.</p>
+            <div class="project-card-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-key="portfolio">
+          <div class="project-card-img">
+            <img src="portfolio-home.png" alt="Portfolio Website" loading="lazy" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a0e1a,#1a2040)'; this.style.display='none'"/>
+            <div class="project-card-img-placeholder"></div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Responsive Developer Portfolio Website using React</h3>
+            <p class="project-card-desc">Built a fully responsive personal portfolio website with modern dark theme, smooth animations and contact form using React and CSS.</p>
+            <div class="project-card-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">HTML5</span>
+              <span class="project-tag">CSS3</span>
+              <span class="project-tag">Responsive</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="portfolio-mobile-dots" id="portfolioDots"></div>
+
+      <div class="view-all-wrap reveal">
+        <button class="btn btn-view-all" id="btnViewAll">View All Projects <span class="view-all-arrow">&rarr;</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Projects Modal -->
+  <div class="all-projects-overlay" id="allProjectsOverlay">
+    <div class="all-projects-modal">
+      <div class="all-projects-header">
+        <h2>All Projects</h2>
+        <button class="all-projects-close" id="allProjectsClose">&times;</button>
+      </div>
+      <div class="all-projects-grid" id="allProjectsGrid"></div>
+      <div class="all-projects-detail" id="allProjectsDetail">
+        <button class="detail-back-btn" id="detailBack"><i class="fas fa-arrow-left"></i> Back to Projects</button>
+        <div class="detail-img-wrap"><img id="detailImg" src="" alt=""></div>
+        <div class="detail-images" id="detailImages"></div>
+        <div class="detail-content">
+          <h2 class="detail-title" id="detailTitle"></h2>
+          <p class="detail-desc" id="detailDesc"></p>
+          <div class="detail-tags" id="detailTags"></div>
+          <div class="detail-actions">
+            <a class="detail-live-btn" id="detailLiveBtn" target="_blank" rel="noopener">View Live Site <i class="fas fa-arrow-right"></i></a>
+            <button class="detail-back-btn-outline" id="detailBackOutline"><i class="fas fa-arrow-left"></i> Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- About section - FIX 3: remove stock photo -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>About Me</h2>
+        <p>Building fast, responsive websites with React &amp; modern CSS</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text reveal-left">
+          <h3>Clean Code. Beautiful Websites. On Time</h3>
+          <p>I am Deepan, a frontend developer specializing in building fast, responsive, and modern websites using React, JavaScript, HTML and CSS.
+I work closely with clients to understand their goals and deliver clean, well-structured code on time. Whether you need a landing page, portfolio, or a full React web app — I'm here to build it for you.</p>
+         
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Projects Done</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+          <div class="about-platforms">
+            <a href="https://www.malt.com/profile/deepanr" target="_blank" rel="noopener" class="btn about-platform-btn malt-btn"><i class="fas fa-bolt"></i> Malt</a>
+            <a href="https://www.fiverr.com/deepann17" target="_blank" rel="noopener" class="btn about-platform-btn fiverr-btn"><i class="fas fa-star"></i> Fiverr</a>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="about-avatar">
+            <img src="d.jpg" alt="Deepan - Web Developer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW: Start a Project section -->
+  <section class="section section-start-project" id="start-project">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2 class="start-project-heading">Start a Project</h2>
+        <p class="start-project-subheading">Tell me about your project and I'll get back to you within 1-3 hours</p>
+      </div>
+      <div class="start-project-wrapper">
+        <div class="start-project-left reveal-left">
+          <div class="trust-badges">
+            <div class="trust-badge">
+              <div class="trust-badge-icon"><i class="fas fa-check"></i></div>
+              <div class="trust-badge-text">
+                <strong>Response within 1-3 hours</strong>
+                <span>I reply fast, usually within a few hours</span>
+              </div>
+            </div>
+            <div class="trust-badge">
+              <div class="trust-badge-icon"><i class="fas fa-check"></i></div>
+              <div class="trust-badge-text">
+                <strong>Free project consultation</strong>
+                <span>Let's discuss your idea before you commit</span>
+              </div>
+            </div>
+            <div class="trust-badge">
+              <div class="trust-badge-icon"><i class="fas fa-check"></i></div>
+              <div class="trust-badge-text">
+                <strong>100% satisfaction guaranteed</strong>
+                <span>I don't stop until you're happy with the result</span>
+              </div>
+            </div>
+          </div>
+          <div class="start-project-stats">
+            <div class="sps-item">
+              <span class="sps-number">25+</span>
+              <span class="sps-label">Projects Completed</span>
+            </div>
+            <div class="sps-item">
+              <span class="sps-number">100%</span>
+              <span class="sps-label">Client Satisfaction</span>
+            </div>
+            <div class="sps-item">
+              <span class="sps-number">48hr</span>
+              <span class="sps-label">Average Delivery</span>
+            </div>
+          </div>
+        </div>
+        <div class="start-project-right reveal-right">
+          <div class="project-form-card">
+            <canvas id="particleCanvas" aria-hidden="true"></canvas>
+            <form class="project-form" id="projectForm">
+              <input type="hidden" name="access_key" value="24e089ab-8614-4002-8078-4a92b3db35dc">
+              
+              <div class="pf-field">
+                <input type="text" id="pf-name" name="Full Name" placeholder=" " required>
+                <label for="pf-name">Full Name</label>
+              </div>
+
+              <div class="pf-field">
+                <input type="email" id="pf-email" name="Email Address" placeholder=" " required>
+                <label for="pf-email">Email Address</label>
+              </div>
+
+              <div class="pf-field">
+                <select id="pf-type" name="Project Type" required>
+                  <option value="" disabled selected></option>
+                  <option value="Landing Page">Landing Page</option>
+                  <option value="Web App or SaaS">Web App or SaaS</option>
+                  <option value="Portfolio Website">Portfolio Website</option>
+                  <option value="E-commerce">E-commerce</option>
+                  <option value="Other">Other</option>
+                </select>
+                <label for="pf-type">Project Type</label>
+              </div>
+
+              <div class="pf-field pf-field--static">
+                <input type="number" id="pf-budget" name="Budget Amount ($)" placeholder="Enter your budget" min="1" required>
+                <label for="pf-budget">Budget Amount</label>
+                <div class="pf-budget-conversions">
+                  <span class="pf-conversion" id="pf-conv-usd">$ USD: —</span>
+                  <span class="pf-conversion" id="pf-conv-inr">₹ INR: —</span>
+                </div>
+              </div>
+
+              <div class="pf-field">
+                <input type="date" id="pf-deadline" name="Project Deadline" placeholder=" ">
+                <label for="pf-deadline">Project Deadline</label>
+              </div>
+
+              <div class="pf-field">
+                <textarea id="pf-desc" name="Project Description" rows="4" placeholder=" " required></textarea>
+                <label for="pf-desc">Project Description</label>
+              </div>
+
+              <div class="pf-field">
+                <select id="pf-source" name="How did you find me?" required>
+                  <option value="" disabled selected></option>
+                  <option value="Fiverr">Fiverr</option>
+                  <option value="Malt">Malt</option>
+                  <option value="Google">Google</option>
+                  <option value="Referral">Referral</option>
+                  <option value="Other">Other</option>
+                </select>
+                <label for="pf-source">How did you find me?</label>
+              </div>
+
+              <button type="submit" class="btn btn-project-submit">Send Project Request</button>
+              <div class="pf-contact-footer">
+                <span><i class="fas fa-envelope"></i> supportcodenova@gmail.com</span>
+                <span><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu, India</span>
+              </div>
+
+            </form>
+
+            <div class="project-form-success" id="projectFormSuccess">
+              <div class="success-checkmark">
+                <div class="check-icon">
+                  <span class="check-line check-line-tip"></span>
+                  <span class="check-line check-line-long"></span>
+                </div>
+              </div>
+              <h3 id="successMessage">Thanks! I'll be in touch within 1-3 hours.</h3>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FIX 5: Footer - real social links (placeholders for user to fill) -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 CodeNovea. All rights reserved.</p>
+      <div class="footer-platforms">
+        <a href="https://www.malt.com/profile/deepanr" target="_blank" rel="noopener" class="footer-platform-link"><i class="fas fa-bolt"></i> Malt</a>
+        <a href="https://www.fiverr.com/deepann17" target="_blank" rel="noopener" class="footer-platform-link"><i class="fas fa-star"></i> Fiverr</a>
+      </div>
+      <div class="footer-socials">
+        <a class="footer-social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+        <a class="footer-social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a class="footer-social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a class="footer-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a class="footer-social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-made-by">
+          <div class="modal-avatar">D</div>
+          <span>Made by <strong>Deepan</strong></span>
+        </div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-top-row">
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <a href="#start-project" class="modal-contact-btn" onclick="closeModal()">Start a Project</a>
+        </div>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-stats">
+          <div><small>Price range</small><strong id="modalPrice"></strong></div>
+          <div><small>Project duration</small><strong id="modalDuration"></strong></div>
+          <div><small>Industry</small><strong id="modalIndustry"></strong></div>
+        </div>
+        <div class="modal-images" id="modalImages"></div>
+        <a class="modal-view-btn" id="modalViewBtn" target="_blank" rel="noopener" style="display:none">View Live <i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
