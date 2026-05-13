@@ -7,23 +7,6 @@
 **[codenovea.netlify.app](https://codenovea.netlify.app)**
 
 ---
-
-## 📸 Screenshots
-
-### 🏠 Hero Section
-![Home](./screenshots/home.png)
-
-### 🛠️ Services Section
-![Services](./screenshots/services.png)
-
-### 💼 My Projects
-![Projects](./screenshots/projects.png)
-
-### 📋 Start a Project Form
-![Contact](./screenshots/contact.png)
-
----
-
 ## ✨ Features
 
 - 🎨 **Modern Blue Gradient Design** — Professional 
